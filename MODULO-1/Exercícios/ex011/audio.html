@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esta página em dispositivos de tela com tamanhos diferentes ou aumente e diminua a janela.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudios</h1>
+    <p>Como reproduzir audios em HTML</p>
+    <audio src="midia/happy-mistake.mp3" preload="metadata" controls></audio>
+    <audio src="midia/Bob Dylan- Knockin on Heavens Door Original.mp3" controls></audio>
+    <audio src="midia/guanacast-33.mp3" preload="metadata" controls></audio>
+    <!-- Além do controls, existe o autoplay 
+    pode rodar mp3, ogg ou wav
+preload = metadata, carrega só informações da mídia. A prpria mídia
+é carregada após clicar no play
+HandBrake Programa gratuito para videos-->
+</body>
+</html>
