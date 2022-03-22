@@ -12,6 +12,7 @@
         table {
             width: 450px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
@@ -30,6 +31,18 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        /* Cabeçalho Fixo -> Já colocamos table {} com position relative*/
+        caption {
+            position: sticky;
+            top: 0px; /* pixel inicial*/
+            background-color: lightgrey;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 48px; /* pixel inicial*/
+            background-color: gray;
         }
         /* odd = impar e even = par*/
         tbody > tr:nth-child(2n) {
@@ -81,6 +94,50 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">19 214 041</td>
             </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>           <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">19 214 041</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>           <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">19 214 041</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>           <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">19 214 041</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">49 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>           <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">19 214 041</td>
+            </tr>
        </tbody>
         <tfoot>
             <tr>
@@ -89,5 +146,13 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet quis molestias minima! Voluptates dolorem quia soluta velit, vero perspiciatis tenetur alias quasi sequi provident perferendis aperiam aut accusantium nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio officiis mollitia deserunt alias quasi nulla nesciunt recusandae laudantium, a quae, ab quos accusamus nisi eius reprehenderit, rem voluptas consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur doloribus eveniet! Aut nesciunt officiis delectus, tempore dolores, eveniet atque dolor a debitis cumque ipsam perferendis illum maiores quibusdam omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab dolorem atque veritatis in cupiditate ullam autem enim adipisci iste. Voluptatum alias ex necessitatibus corrupti nulla possimus error expedita laborum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet quis molestias minima! Voluptates dolorem quia soluta velit, vero perspiciatis tenetur alias quasi sequi provident perferendis aperiam aut accusantium nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio officiis mollitia deserunt alias quasi nulla nesciunt recusandae laudantium, a quae, ab quos accusamus nisi eius reprehenderit, rem voluptas consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur doloribus eveniet! Aut nesciunt officiis delectus, tempore dolores, eveniet atque dolor a debitis cumque ipsam perferendis illum maiores quibusdam omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab dolorem atque veritatis in cupiditate ullam autem enim adipisci iste. Voluptatum alias ex necessitatibus corrupti nulla possimus error expedita laborum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet quis molestias minima! Voluptates dolorem quia soluta velit, vero perspiciatis tenetur alias quasi sequi provident perferendis aperiam aut accusantium nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio officiis mollitia deserunt alias quasi nulla nesciunt recusandae laudantium, a quae, ab quos accusamus nisi eius reprehenderit, rem voluptas consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur doloribus eveniet! Aut nesciunt officiis delectus, tempore dolores, eveniet atque dolor a debitis cumque ipsam perferendis illum maiores quibusdam omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab dolorem atque veritatis in cupiditate ullam autem enim adipisci iste. Voluptatum alias ex necessitatibus corrupti nulla possimus error expedita laborum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet quis molestias minima! Voluptates dolorem quia soluta velit, vero perspiciatis tenetur alias quasi sequi provident perferendis aperiam aut accusantium nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio officiis mollitia deserunt alias quasi nulla nesciunt recusandae laudantium, a quae, ab quos accusamus nisi eius reprehenderit, rem voluptas consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur doloribus eveniet! Aut nesciunt officiis delectus, tempore dolores, eveniet atque dolor a debitis cumque ipsam perferendis illum maiores quibusdam omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab dolorem atque veritatis in cupiditate ullam autem enim adipisci iste. Voluptatum alias ex necessitatibus corrupti nulla possimus error expedita laborum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet quis molestias minima! Voluptates dolorem quia soluta velit, vero perspiciatis tenetur alias quasi sequi provident perferendis aperiam aut accusantium nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio officiis mollitia deserunt alias quasi nulla nesciunt recusandae laudantium, a quae, ab quos accusamus nisi eius reprehenderit, rem voluptas consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur doloribus eveniet! Aut nesciunt officiis delectus, tempore dolores, eveniet atque dolor a debitis cumque ipsam perferendis illum maiores quibusdam omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab dolorem atque veritatis in cupiditate ullam autem enim adipisci iste. Voluptatum alias ex necessitatibus corrupti nulla possimus error expedita laborum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet quis molestias minima! Voluptates dolorem quia soluta velit, vero perspiciatis tenetur alias quasi sequi provident perferendis aperiam aut accusantium nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio officiis mollitia deserunt alias quasi nulla nesciunt recusandae laudantium, a quae, ab quos accusamus nisi eius reprehenderit, rem voluptas consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur doloribus eveniet! Aut nesciunt officiis delectus, tempore dolores, eveniet atque dolor a debitis cumque ipsam perferendis illum maiores quibusdam omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab dolorem atque veritatis in cupiditate ullam autem enim adipisci iste. Voluptatum alias ex necessitatibus corrupti nulla possimus error expedita laborum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet quis molestias minima! Voluptates dolorem quia soluta velit, vero perspiciatis tenetur alias quasi sequi provident perferendis aperiam aut accusantium nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio officiis mollitia deserunt alias quasi nulla nesciunt recusandae laudantium, a quae, ab quos accusamus nisi eius reprehenderit, rem voluptas consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur doloribus eveniet! Aut nesciunt officiis delectus, tempore dolores, eveniet atque dolor a debitis cumque ipsam perferendis illum maiores quibusdam omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab dolorem atque veritatis in cupiditate ullam autem enim adipisci iste. Voluptatum alias ex necessitatibus corrupti nulla possimus error expedita laborum?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet amet quis molestias minima! Voluptates dolorem quia soluta velit, vero perspiciatis tenetur alias quasi sequi provident perferendis aperiam aut accusantium nulla! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat optio officiis mollitia deserunt alias quasi nulla nesciunt recusandae laudantium, a quae, ab quos accusamus nisi eius reprehenderit, rem voluptas consectetur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis consequuntur doloribus eveniet! Aut nesciunt officiis delectus, tempore dolores, eveniet atque dolor a debitis cumque ipsam perferendis illum maiores quibusdam omnis? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ab dolorem atque veritatis in cupiditate ullam autem enim adipisci iste. Voluptatum alias ex necessitatibus corrupti nulla possimus error expedita laborum?</p>
 </body>
 </html>
