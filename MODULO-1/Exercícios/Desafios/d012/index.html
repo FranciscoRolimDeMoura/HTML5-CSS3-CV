@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paralax</title>
     <style>
+        @charset "UTF-8";
         @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
@@ -54,6 +55,11 @@
             padding-left: 30px;
             font-family: var(--fonte3);
         }
+
+        section > p {
+            padding-bottom: 2em;
+        }
+
         section.normal {
             background-color: white;
             color: black;
@@ -61,12 +67,26 @@
         section.imagem {
             background-color: rgb(65, 61, 61);
             color: white;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.363);
+            background-size: cover;
+            background-attachment: fixed;
         }
         section.imagem > p {
-            background-color: rgba(0, 0, 0, 0.226);
+            background-color: rgba(0, 0, 0, 0.521);
             display: inline-block;
             padding: 5px;
+            text-shadow: 1px 1px 0px black;
         }
+
+        section#img01 {
+            background-image: url('imagens/background001.jpg');
+            background-position: right center;
+        }
+
+        section#img02 {
+            background-image: url('imagens/background002.jpg');
+        }
+
         footer {
             background-color: black;
             color: white;
@@ -99,7 +119,7 @@
     </p>
 </section>
 
-<section class="imagem">
+<section class="imagem" id="img01">
     <p>
         Não é mais como era antes <br>
         É tudo abreviado <br>
@@ -133,7 +153,7 @@
     </p>
 </section>
 
-<section class="imagem">
+<section class="imagem" id="img02">
     <p>
         Tenho saudade das cartas <br>
         Escritas com a própria mão <br>
@@ -146,21 +166,25 @@
 </section>
 
 <section class="normal">
-    Agora, escrevo e envio <br>
-    Chegando na mesma hora <br>
-    Mas quando vou prosear <br>
-    A pessoa foi embora <br>
-    Abriu outro aplicativo <br>
-    O mundo ficou cativo <br>
-    Da tecnologia do agora. <br>
+    <p>
+        Agora, escrevo e envio <br>
+        Chegando na mesma hora <br>
+        Mas quando vou prosear <br>
+        A pessoa foi embora <br>
+        Abriu outro aplicativo <br>
+        O mundo ficou cativo <br>
+        Da tecnologia do agora. <br>
+    </p>
     
-    Felizmente, pra orar <br>
-    Não precisa de internet <br>
-    Deus escuta todo mundo <br>
-    Se quiser, faça esse teste <br>
-    Dois pontos são dois joelhos <br>
-    Seus lábios são aparelhos <br>
-    Deixe que Deus interprete. <br>
+    <p>
+        Felizmente, pra orar <br>
+        Não precisa de internet <br>
+        Deus escuta todo mundo <br>
+        Se quiser, faça esse teste <br>
+        Dois pontos são dois joelhos <br>
+        Seus lábios são aparelhos <br>
+        Deixe que Deus interprete. <br>
+    </p>
 </section>
 
 <footer>
